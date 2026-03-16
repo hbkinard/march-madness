@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     legacy({
-      targets: ['ios >= 12'],
+      targets: ['ios >= 10'],
     }),
   ],
   base: '/march-madness/',
