@@ -1,0 +1,36 @@
+.region {
+  display: flex;
+  flex-direction: column;
+}
+
+.region-name {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #e8c84a;
+  padding: 4px 0;
+  background: #0a1628;
+  border-bottom: 1px solid #1a3060;
+  margin-bottom: 4px;
+}
+
+.region--mirrored .region-name {
+  /* same style, just mirrored layout */
+}
+
+.region-rounds {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.region--mirrored .region-rounds {
+  flex-direction: row;
+}
+
+.region-round-col {
+  flex: 1;
+  min-width: 120px;
+}

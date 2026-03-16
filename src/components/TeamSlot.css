@@ -1,0 +1,63 @@
+.team-slot {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  font-size: 0.72rem;
+  background: #16213e;
+  border: 1px solid #2a3f6a;
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+  transition: background 0.15s, border-color 0.15s;
+  min-width: 0;
+}
+
+.team-slot--empty {
+  background: #0d1421;
+  border-color: #1a2a4a;
+}
+
+.team-slot--clickable {
+  cursor: pointer;
+}
+
+.team-slot--clickable:hover {
+  background: #1e3a6e;
+  border-color: #4a7abf;
+}
+
+.team-slot--winner {
+  background: #1a3a1a;
+  border-color: #3a8a3a;
+  color: #7dda7d;
+  font-weight: 600;
+}
+
+.team-slot--winner.team-slot--clickable:hover {
+  background: #1f4a1f;
+}
+
+.team-slot--eliminated {
+  opacity: 0.38;
+}
+
+.team-seed {
+  color: #8899bb;
+  font-size: 0.65rem;
+  min-width: 16px;
+  text-align: right;
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+
+.team-slot--winner .team-seed {
+  color: #4a9a4a;
+}
+
+.team-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
+}

@@ -1,0 +1,27 @@
+.bracket {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  min-width: max-content;
+  padding: 16px 8px;
+  gap: 0;
+}
+
+.bracket-side {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.bracket-center {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.side-divider {
+  height: 12px;
+}

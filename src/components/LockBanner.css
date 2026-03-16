@@ -1,0 +1,23 @@
+.lock-banner {
+  text-align: center;
+  padding: 0.45rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.lock-banner--open {
+  background: #0d3d1a;
+  color: #7dda7d;
+  border-bottom: 1px solid #1a6b2a;
+}
+
+.lock-banner--locked {
+  background: #3d0d0d;
+  color: #e87a7a;
+  border-bottom: 1px solid #6b1a1a;
+}
+
+.lock-banner strong {
+  color: #ffffff;
+}

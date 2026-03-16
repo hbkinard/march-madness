@@ -1,0 +1,56 @@
+{
+  "regions": {
+    "east": {
+      "name": "East",
+      "matchups": [
+        { "topSeed": 1, "topTeam": "Duke", "bottomSeed": 16, "bottomTeam": "Siena" },
+        { "topSeed": 8, "topTeam": "Ohio State", "bottomSeed": 9, "bottomTeam": "TCU" },
+        { "topSeed": 5, "topTeam": "St. John's", "bottomSeed": 12, "bottomTeam": "Northern Iowa" },
+        { "topSeed": 4, "topTeam": "Kansas", "bottomSeed": 13, "bottomTeam": "Cal Baptist" },
+        { "topSeed": 6, "topTeam": "Louisville", "bottomSeed": 11, "bottomTeam": "South Florida" },
+        { "topSeed": 3, "topTeam": "Michigan State", "bottomSeed": 14, "bottomTeam": "North Dakota State" },
+        { "topSeed": 7, "topTeam": "UCLA", "bottomSeed": 10, "bottomTeam": "UCF" },
+        { "topSeed": 2, "topTeam": "UConn", "bottomSeed": 15, "bottomTeam": "Furman" }
+      ]
+    },
+    "west": {
+      "name": "West",
+      "matchups": [
+        { "topSeed": 1, "topTeam": "Arizona", "bottomSeed": 16, "bottomTeam": "LIU" },
+        { "topSeed": 8, "topTeam": "Villanova", "bottomSeed": 9, "bottomTeam": "Utah State" },
+        { "topSeed": 5, "topTeam": "Wisconsin", "bottomSeed": 12, "bottomTeam": "High Point" },
+        { "topSeed": 4, "topTeam": "Arkansas", "bottomSeed": 13, "bottomTeam": "Hawaii" },
+        { "topSeed": 6, "topTeam": "BYU", "bottomSeed": 11, "bottomTeam": "Texas/NC State" },
+        { "topSeed": 3, "topTeam": "Gonzaga", "bottomSeed": 14, "bottomTeam": "Kennesaw State" },
+        { "topSeed": 7, "topTeam": "Miami (FL)", "bottomSeed": 10, "bottomTeam": "Missouri" },
+        { "topSeed": 2, "topTeam": "Purdue", "bottomSeed": 15, "bottomTeam": "Queens (NC)" }
+      ]
+    },
+    "midwest": {
+      "name": "Midwest",
+      "matchups": [
+        { "topSeed": 1, "topTeam": "Michigan", "bottomSeed": 16, "bottomTeam": "UMBC/Howard" },
+        { "topSeed": 8, "topTeam": "Georgia", "bottomSeed": 9, "bottomTeam": "Saint Louis" },
+        { "topSeed": 5, "topTeam": "Texas Tech", "bottomSeed": 12, "bottomTeam": "Akron" },
+        { "topSeed": 4, "topTeam": "Alabama", "bottomSeed": 13, "bottomTeam": "Hofstra" },
+        { "topSeed": 6, "topTeam": "Tennessee", "bottomSeed": 11, "bottomTeam": "Miami (OH)/SMU" },
+        { "topSeed": 3, "topTeam": "Virginia", "bottomSeed": 14, "bottomTeam": "Wright State" },
+        { "topSeed": 7, "topTeam": "Kentucky", "bottomSeed": 10, "bottomTeam": "Santa Clara" },
+        { "topSeed": 2, "topTeam": "Iowa State", "bottomSeed": 15, "bottomTeam": "Tennessee State" }
+      ]
+    },
+    "south": {
+      "name": "South",
+      "matchups": [
+        { "topSeed": 1, "topTeam": "Florida", "bottomSeed": 16, "bottomTeam": "Prairie View A&M/Lehigh" },
+        { "topSeed": 8, "topTeam": "Clemson", "bottomSeed": 9, "bottomTeam": "Iowa" },
+        { "topSeed": 5, "topTeam": "Vanderbilt", "bottomSeed": 12, "bottomTeam": "McNeese" },
+        { "topSeed": 4, "topTeam": "Nebraska", "bottomSeed": 13, "bottomTeam": "Troy" },
+        { "topSeed": 6, "topTeam": "North Carolina", "bottomSeed": 11, "bottomTeam": "VCU" },
+        { "topSeed": 3, "topTeam": "Illinois", "bottomSeed": 14, "bottomTeam": "Penn" },
+        { "topSeed": 7, "topTeam": "Saint Mary's", "bottomSeed": 10, "bottomTeam": "Texas A&M" },
+        { "topSeed": 2, "topTeam": "Houston", "bottomSeed": 15, "bottomTeam": "Idaho" }
+      ]
+    }
+  }
+}

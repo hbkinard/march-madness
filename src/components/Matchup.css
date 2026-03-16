@@ -1,0 +1,61 @@
+.matchup {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  width: 100%;
+}
+
+.matchup-teams {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.matchup-divider {
+  height: 1px;
+  background: #0d1421;
+}
+
+/* Right-side connector: bracket lines pointing right toward next round */
+.matchup-connector {
+  width: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+/* Top half: right border (going down) + bottom border (elbow pointing left at midpoint) */
+.connector-top {
+  flex: 1;
+  border-right: 1px solid #2a3f6a;
+  border-bottom: 1px solid #2a3f6a;
+}
+
+.connector-mid {
+  height: 1px;
+}
+
+/* Bottom half: right border (going up) + top border (elbow pointing left at midpoint) */
+.connector-bottom {
+  flex: 1;
+  border-right: 1px solid #2a3f6a;
+  border-top: 1px solid #2a3f6a;
+}
+
+/* Mirrored: connectors on the LEFT side (right regions) */
+.matchup--mirrored {
+  flex-direction: row-reverse;
+}
+
+.matchup--mirrored .connector-top {
+  border-right: none;
+  border-left: 1px solid #2a3f6a;
+  border-bottom: 1px solid #2a3f6a;
+}
+
+.matchup--mirrored .connector-bottom {
+  border-right: none;
+  border-left: 1px solid #2a3f6a;
+  border-top: 1px solid #2a3f6a;
+}
